@@ -15,7 +15,7 @@ def load_data_and_train():
     X = df[['Diem_Cong', 'Diem_Thu', 'Gia_Trieu']]
     y = df['Ten_Vot']
 
-    knn_model = KNeighborsClassifier(n_neighbors=1)
+    knn_model = KNeighborsClassifier(n_neighbors=3)
     knn_model.fit(X, y)
 
     return knn_model, df

@@ -39,4 +39,3 @@ Nguồn dữ liệu: [data/racket_dataset.csv](data/racket_dataset.csv). `Diem_C
 
 `main.py` là prototype KNN chạy trong terminal từ phiên bản ban đầu. Web app hiện dùng `engine.mjs` để xếp hạng minh bạch và không cần backend.
 
-Để xuất bản qua GitHub Pages: trong **Settings → Pages**, chọn **Deploy from a branch**, branch **master**, folder **/(root)**, rồi Save. Sau khi triển khai, liên kết đầu README sẽ hoạt động.

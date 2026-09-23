@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122d2b">
+  <meta name="description" content="Khám phá và so sánh 50 mẫu vợt cầu lông theo lối đánh, phản tạt và ngân sách. Gợi ý minh bạch, dễ dùng trên điện thoại.">
+  <title>Chọn Vợt — Tìm cây vợt hợp lối đánh của bạn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#tu-van">Bỏ qua đến phần tư vấn</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#dau-trang" aria-label="Chọn Vợt — về đầu trang">
+        <span class="brand-mark" aria-hidden="true">✳</span><span>chọn<span class="brand-accent">vợt.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#tu-van">Tìm vợt</a>
+        <a href="#thu-vien">Thư viện vợt</a>
+        <a href="#cach-hoat-dong">Cách hoạt động</a>
+      </nav>
+      <a class="header-cta" href="#tu-van">Bắt đầu <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="dau-trang">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> Dành cho mọi trình độ</span>
+        <h1 id="hero-title">Tìm cây vợt<br><em>hợp tay bạn.</em></h1>
+        <p>Thích đập cầu, phản tạt nhanh hay đánh toàn diện? Chọn lối chơi và ngân sách — chúng tôi giúp bạn thu hẹp lựa chọn trong vài giây.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#tu-van">Tìm vợt của tôi <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#thu-vien">Xem toàn bộ vợt <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-trust"><span>50 mẫu vợt</span><i></i><span>Nhiều thương hiệu</span><i></i><span>Gợi ý có lý do</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="court-line court-line-one"></div><div class="court-line court-line-two"></div>
+        <div class="art-halo"></div>
+        <svg class="racket-art" viewBox="0 0 340 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g transform="rotate(28 170 280)">
+            <ellipse cx="170" cy="167" rx="108" ry="145" stroke="#E4F2D1" stroke-width="13"/>
+            <ellipse cx="170" cy="167" rx="94" ry="131" stroke="#B7D7AB" stroke-width="2"/>
+            <path d="M125 292L155 343M215 292L185 343M155 343H185L185 540H155V343Z" stroke="#E4F2D1" stroke-width="10" stroke-linejoin="round"/>
+            <path d="M155 438H185M155 457H185M155 476H185M155 495H185M155 514H185" stroke="#91BB9C" stroke-width="3"/>
+            <path d="M101 76V260M124 47V287M147 34V298M170 30V302M193 34V298M216 47V287M239 76V260M77 111H263M72 137H268M68 164H272M72 191H268M78 218H262M91 245H249" stroke="#CDE4C8" stroke-opacity=".65" stroke-width="2"/>
+          </g>
+        </svg>
+        <div class="art-label"><span class="art-label-icon">↗</span><span>Đúng lối đánh<br><strong>Đúng cảm giác</strong></span></div>
+        <span class="art-index">01 / TÌM ĐÚNG VỢT</span>
+      </div>
+    </section>
+
+    <section class="finder-section" id="tu-van" aria-labelledby="finder-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div><span class="kicker">01 / TƯ VẤN NHANH</span><h2 id="finder-title">Lối đánh của bạn là gì?</h2></div>
+          <p>Không cần biết thông số kỹ thuật. Cứ chọn theo cảm giác bạn muốn có trên sân.</p>
+        </div>
+        <div class="finder-layout">
+          <form class="finder-panel" id="finder-form">
+            <div class="panel-topline"><span>Hồ sơ người chơi</span><span>~ 30 giây</span></div>
+            <fieldset class="style-fieldset">
+              <legend>Chọn phong cách gần bạn nhất</legend>
+              <div class="style-options">
+                <label class="style-option"><input type="radio" name="style" value="attack"><span class="style-emoji">🔥</span><strong>Thiên công</strong><small>Thích đập cầu, tạo áp lực</small></label>
+                <label class="style-option"><input type="radio" name="style" value="balanced" checked><span class="style-emoji">⚖️</span><strong>Toàn diện</strong><small>Linh hoạt công và thủ</small></label>
+                <label class="style-option"><input type="radio" name="style" value="defense"><span class="style-emoji">⚡</span><strong>Tốc độ / thủ</strong><small>Phản tạt, xoay trở nhanh</small></label>
+              </div>
+            </fieldset>
+            <div class="range-grid">
+              <div class="range-field">
+                <label for="attack">Ưu tiên tấn công <output id="attack-value" for="attack">7</output></label>
+                <input id="attack" name="attack" type="range" min="1" max="10" step="0.5" value="7">
+                <div class="range-ends"><span>Êm, dễ kiểm soát</span><span>Đập mạnh</span></div>
+              </div>
+              <div class="range-field">
+                <label for="defense">Ưu tiên phản tạt / phòng thủ <output id="defense-value" for="defense">7.5</output></label>
+                <input id="defense" name="defense" type="range" min="1" max="10" step="0.5" value="7.5">
+                <div class="range-ends"><span>Ổn định</span><span>Xoay trở nhanh</span></div>
+              </div>
+            </div>
+            <div class="form-bottom">
+              <div class="budget-field">
+                <label for="budget">Ngân sách tối đa <strong id="budget-value">2.5 triệu ₫</strong></label>
+                <input id="budget" name="budget" type="range" min="0.5" max="5" step="0.1" value="2.5">
+                <div class="range-ends"><span>500 nghìn</span><span>5 triệu</span></div>
+              </div>
+              <div class="brand-field"><label for="brand">Thương hiệu</label><select id="brand" name="brand"><option value="all">Tất cả thương hiệu</option></select></div>
+            </div>
+            <button class="button button-primary submit-button" type="submit">Xem gợi ý phù hợp <span aria-hidden="true">↗</span></button>
+            <p class="form-note">Giá từ dữ liệu dự án chỉ để tham khảo. Hãy kiểm tra giá và phiên bản thực tế trước khi mua.</p>
+          </form>
+          <aside class="finder-aside" aria-label="Giới thiệu cách tư vấn">
+            <span class="aside-symbol" aria-hidden="true">✳</span>
+            <span class="aside-kicker">KHÔNG CÓ ĐÁP ÁN DUY NHẤT</span>
+            <h3>Cây vợt tốt nhất là cây vợt <em>hợp với bạn.</em></h3>
+            <p>Mỗi gợi ý hiển thị độ khớp với điểm công, thủ bạn chọn. Ngân sách là giới hạn cứng với những mẫu đã có giá tham khảo.</p>
+            <div class="aside-foot"><span>Khám phá theo cách của bạn</span><span aria-hidden="true">↗</span></div>
+          </aside>
+        </div>
+        <div id="results" class="results" aria-live="polite" aria-atomic="false" hidden></div>
+      </div>
+    </section>
+
+    <section class="library-section shell" id="thu-vien" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div><span class="kicker">02 / KHÁM PHÁ</span><h2 id="library-title">Thư viện vợt</h2></div>
+        <p>Tìm một mẫu quen tên, lọc theo hãng và xem nhanh thiên hướng của từng cây.</p>
+      </div>
+      <div class="library-toolbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Tìm tên vợt</span><input id="search" type="search" placeholder="Tìm tên vợt hoặc phong cách..." autocomplete="off"></label>
+        <label class="select-wrap"><span class="sr-only">Lọc thương hiệu</span><select id="library-brand"><option value="all">Tất cả hãng</option></select></label>
+        <label class="select-wrap"><span class="sr-only">Lọc theo giá</span><select id="price-filter"><option value="all">Mọi mức giá</option><option value="under1">Dưới 1 triệu</option><option value="one-two">1–2 triệu</option><option value="over2">Trên 2 triệu</option><option value="unknown">Chưa có giá</option></select></label>
+      </div>
+      <p class="library-count" id="library-count" aria-live="polite">Đang tải dữ liệu...</p>
+      <div class="racket-grid" id="racket-grid"></div>
+      <button class="load-more" id="load-more" type="button" hidden>Xem thêm vợt <span aria-hidden="true">↓</span></button>
+    </section>
+
+    <section class="how-section" id="cach-hoat-dong" aria-labelledby="how-title">
+      <div class="shell how-layout">
+        <div><span class="kicker">03 / MINH BẠCH</span><h2 id="how-title">Gợi ý được tính<br>như thế nào?</h2><p>Ứng dụng so sánh hai điểm công và thủ do bạn chọn với điểm đánh giá trong bộ dữ liệu. Mẫu gần nhu cầu nhất xếp trước; mẫu vượt ngân sách có giá sẽ bị loại khỏi gợi ý.</p></div>
+        <div class="how-cards">
+          <div><span>01</span><strong>Chọn lối đánh</strong><p>Chỉnh điểm công và phản tạt theo sở thích của bạn.</p></div>
+          <div><span>02</span><strong>Đặt ngân sách</strong><p>Giữ các mẫu có giá tham khảo không vượt quá mức bạn chọn.</p></div>
+          <div><span>03</span><strong>So sánh lựa chọn</strong><p>Xem mức độ phù hợp và kiểm tra thông số, giá tại nơi bán.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-inner"><div><a class="brand" href="#dau-trang"><span class="brand-mark" aria-hidden="true">✳</span><span>chọn<span class="brand-accent">vợt.</span></span></a><p>Một điểm bắt đầu dễ hiểu để tìm cây vợt phù hợp.</p></div><div><span>Dự án của Lý Đình Bách</span><a href="https://github.com/bachkhi29/Badminton_Racket_Recommender" target="_blank" rel="noopener noreferrer">Xem mã nguồn ↗</a></div></div></footer>
+</body>
+</html>
